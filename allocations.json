@@ -1,0 +1,26 @@
+{
+    "Extreme markets": {
+        "allocations": {
+            "STRAT_ETH_USD_H_3_V2": 0.35,
+            "STRAT_BTC_USD_H_3_V2": 0.35,
+            "STRAT_BTC_ETH_USD_H_1": 0.3
+        },
+        "leverage": 1.0
+    },
+    "Mild bull markets": {
+        "allocations": {
+            "STRAT_ETH_USD_H_3_V2": 0.3,
+            "STRAT_BTC_USD_H_3_V2": 0.3,
+            "STRAT_BTC_ETH_USD_H_1": 0.4
+        },
+        "leverage": 1.5
+    },
+    "Mild bear or range markets": {
+        "allocations": {
+            "STRAT_ETH_USD_H_3_V2": 0.35,
+            "STRAT_BTC_USD_H_3_V2": 0.35,
+            "STRAT_BTC_ETH_USD_H_1": 0.3
+        },
+        "leverage": 1.5
+    }
+}

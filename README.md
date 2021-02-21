@@ -1,4 +1,4 @@
-# :sunny: :cloud: Napbot Weather Bot :cloud: :sunny:
+# :sunny::cloud: Napbot Weather Bot :cloud::sunny:
 
 > a bot who track the Napbot weather and change allocation in consequence
 
@@ -10,3 +10,7 @@
 ## :beer: Usage
 
 `python main.py --email [napbots email] --password [napbots password]`
+
+## :book: Configuration
+
+Change allocations and leverage in `allocations.json`

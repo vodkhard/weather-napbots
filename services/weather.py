@@ -1,6 +1,6 @@
 import requests
 import json
-import lib.api as api
+import library.api as api
 
 
 def getWeather():

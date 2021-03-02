@@ -1,7 +1,7 @@
 import requests
 import json
-from lib.db import readInFile, saveInFile
-from lib.api import baseUrl, headers
+from library.db import readInFile, saveInFile
+from library.api import baseUrl, headers
 
 
 def login(email, password):

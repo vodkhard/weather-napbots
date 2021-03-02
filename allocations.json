@@ -17,9 +17,9 @@
     },
     "Mild bear or range markets": {
         "allocations": {
-            "STRAT_ETH_USD_H_3_V2": 0.35,
-            "STRAT_BTC_USD_H_3_V2": 0.35,
-            "STRAT_BTC_ETH_USD_H_1": 0.3
+            "STRAT_ETH_USD_H_3_V2": 0.1,
+            "STRAT_BTC_USD_H_3_V2": 0.1,
+            "STRAT_BTC_ETH_USD_H_1": 0.8
         },
         "leverage": 1.5
     }

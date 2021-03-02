@@ -3,7 +3,7 @@ import json
 import sys
 import argparse
 import click
-from lib.db import readInFile, saveInFile, deleteInFile
+from library.db import readInFile, saveInFile, deleteInFile
 from services.weather import getWeather
 from services.user import login, getAccountId, baseUrl, headers
 from services.allocations import updateAllocations

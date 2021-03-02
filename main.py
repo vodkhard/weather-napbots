@@ -11,12 +11,13 @@ from services.allocations import updateAllocations
 
 @click.command()
 @click.option("--email", "-e")
-@click.password_option()
+@click.option('--password', "-p")
 @click.option("--force", "-f", is_flag=True)
 def main(email, password, force):
     newWeather = getWeather()
     if (newWeather != readInFile('weather')) or force:
-        login(email, password)
+        login(email if email else readInFile('email'),
+              password if password else readInFile('password'))
         if updateAllocations(newWeather):
             saveInFile('weather', newWeather)
 
